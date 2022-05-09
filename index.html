@@ -23,8 +23,14 @@
 
     <div id="root">
         <!-- Section input -->
-        <section>
-
+        <section class="input">
+            <input 
+            type="text" 
+            placeholder="Aggiungi todo" 
+            @keyup.enter="addItem"
+            v-model="userTodo"
+            >
+            <button @click="addItem">Aggiungi</button>
         </section>
         <!-- /Section input -->
 

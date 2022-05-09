@@ -13,6 +13,21 @@ body {
     padding: 5rem 0;
 }
 
+.input {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.input input {
+    /* font-size: 1rem; */
+    padding: .3rem .8rem;
+}
+
+.input button {
+    padding: .3rem .6rem;
+    cursor: pointer;
+}
+
 section {
     width: 50%;
     margin: auto;
@@ -30,7 +45,7 @@ ul li span {
 }
 
 ul li i {
-    
+    cursor: pointer;
     color: tomato;
 }
 
