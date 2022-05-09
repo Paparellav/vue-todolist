@@ -23,7 +23,11 @@
 
         <!-- Section UL lista -->
         <section>
-            
+            <ul>
+                <li v-for="(element, index) in todos" :class="element.done === true ? 'done' : ''">
+                    {{ element.text }}
+                </li>
+            </ul>
         </section>
         <!-- /Section UL lista -->
 

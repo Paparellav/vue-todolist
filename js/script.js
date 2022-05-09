@@ -4,26 +4,28 @@
 const app = new Vue(
     {
         el: '#root',
-        data: [
-            {
-                text: 'Comprare il latte',
-                done: false,
-            },
-            {
-                text: 'Andare a correre',
-                done: true,
-            },
-            {
-                text: 'Seguire recap pomeridiano',
-                done: true,
-            },
-            {
-                text: 'Completare esercizio',
-                done: false,
-            },
-        ],
+        data: {
+            todos: [
+                {
+                    text: 'Comprare il latte',
+                    done: false,
+                },
+                {
+                    text: 'Andare a correre',
+                    done: true,
+                },
+                {
+                    text: 'Seguire recap pomeridiano',
+                    done: true,
+                },
+                {
+                    text: 'Completare esercizio',
+                    done: false,
+                },
+            ],
+        },
         methods: {
-            
+
         }
     }
 )
