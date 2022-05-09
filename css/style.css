@@ -6,16 +6,32 @@
 
 html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 body {
-    text-align: center;
     padding: 5rem 0;
+}
+
+section {
+    width: 50%;
+    margin: auto;
 }
 
 ul li {
     margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li span {
+    flex-grow: 1;
+}
+
+ul li i {
+    
+    color: tomato;
 }
 
 .done {
