@@ -40,6 +40,9 @@ const app = new Vue(
                 this.todos.push(newObject);
                 this.userTodo = "";
             },
+            toggleDone: function(index) {
+                this.todos[index].done = !this.todos[index].done;
+            }
         },
     },
 );

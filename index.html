@@ -38,7 +38,7 @@
         <section>
             <ul>
                 <li v-for="(element, index) in todos">
-                    <span :class="element.done === true ? 'done' : ''">{{ element.text }}</span>
+                    <span @click="toggleDone(index)" :class="element.done === true ? 'done' : ''">{{ element.text }}</span>
                     <i @click="removeItem(index)" class="fas fa-times"></i>                   
                 </li>
             </ul>
